@@ -1,0 +1,51 @@
+.Container-base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size:1.5rem;
+    box-sizing: border-box;    
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+button {
+    margin:  .5rem;
+    border: solid  black;
+    border-radius: .5rem;
+    height: 2rem;
+    background: #fff;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.inc-btn:hover {
+    background: #23a802c0;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.dec-btn:hover {
+    background: #df03039a;
+    color: #fff;
+    transition: 0.5s;
+}
